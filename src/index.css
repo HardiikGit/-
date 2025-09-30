@@ -1,1 +1,28 @@
+/* Tailwind Css */
 @import "tailwindcss";
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap");
+
+/* Custom Css  */
+:root {
+  --family: "Alan Sans", sans-serif;
+  --orange: "#000";
+}
+html,
+body {
+  font-family: var(--family);
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+a,
+button,
+input,
+text {
+  outline: none;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
