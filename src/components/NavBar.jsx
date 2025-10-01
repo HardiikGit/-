@@ -7,16 +7,13 @@ function NavBar() {
      <div className="Nav-Items">
       <ul className="flex items-center justify-end gap-10">
        <li>
-        <a href="#" className="text-sm font-medium">Projects</a>
-       </li>
-       <li>
         <a href="#about" className="text-sm font-medium">About</a>
        </li>
        <li>
-        <a href="#" className="text-sm font-medium">Blog</a>
+        <a href="#" className="text-sm font-medium">Projects</a>
        </li>
        <li>
-        <a href="#" className="text-sm font-medium">Resume</a>
+        <a href="#" className="text-sm font-medium">Blog</a>
        </li>
        <li>
         <a href="#" className="text-sm font-medium">Contact</a>
